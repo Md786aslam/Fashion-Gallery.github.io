@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fashion Gallery | India's Fashion Brand | Clothing ....</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/collections.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="../index.html"><img src="../image/logo.png" alt="Logo"></a>
+            <div class="navbar" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="menswear.html">MEN'S WEAR</a></li>
+                    <li><a href="womenswear.html">WOMEN'S WEAR</a></li>
+                    <li><a href="kidswear.html">KID'S WEAR</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 id="cont">About Us</h1>
+        <div class="text-box">
+            <h1>The Fashion Gallery</h1>
+            <h3>Stay cool and look smart with our wide selection of stylish outfits</h3>
+            <p>
+                Shop from leading brands like UCB, Van Heusen, Allen Solly, People, Levi's, Wrangler, Jack and Jones, Lee, IPL T Shirts, Flying Machine, Pepe, Roadster, Arrow, and more.
+            </p>
+            <div class="icons">
+                Follow Us : 
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Copyright &copy; All Right Reserved -The Fashion Gallery </p>
+    </section>
+
+     <!-- javaScript code -->
+
+     <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
